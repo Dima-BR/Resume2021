@@ -43,9 +43,7 @@
                 hideNavMenu();
                 console.log("Before else" ,hash);
 
-            }
-            
-            else{
+            }else{
                 let navItems = navMenu.querySelectorAll(".link-item");
                 navItems.forEach((item) => {
                     if(hash === item.hash){
@@ -59,7 +57,6 @@
             console.log(hash);
         }
     })
-
 })();
 
 // about section tabs
